@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Compilaciones
+client/dist/
+server/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema y editor
+.DS_Store
+.vscode/
